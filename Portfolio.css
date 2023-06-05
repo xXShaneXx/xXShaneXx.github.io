@@ -10,6 +10,9 @@ body {
     user-select: none;
   }
 
+  div {
+    user-select: none;
+  }
 
   .head1 {
     background-color: rgb(18, 13, 18);
@@ -230,6 +233,7 @@ body {
     border-top-style: solid;
     border-top-color: rgb(144, 131, 133);
     border-top-width: 2px;
+    user-select:auto;
   }
 
   .pcon{
