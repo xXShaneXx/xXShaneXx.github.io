@@ -92,11 +92,15 @@
 
       <div class="main2">
         <h3>Projekt Węża</h3>
-        <div class="main3">
-          <img class="impython" src="/Unity/wazb1.JPG" alt="waz1" />
-          <img class="impython" src="/Unity/wazb2.JPG" alt="waz2" />
-          <img class="impython" src="/Unity/wazb3.JPG" alt="waz3" />
-          <img class="impython" src="/Unity/wazb4.JPG" alt="waz4" />
+        <div class="main2">
+          <div class="main3">
+            <img class="impython" src="/Unity/wazb1.JPG" alt="waz1" />
+            <img class="impython" src="/Unity/wazb2.JPG" alt="waz2" />
+          </div>
+          <div class="main3-top-m">
+            <img class="impython" src="/Unity/wazb3.JPG" alt="waz3" />
+            <img class="impython" src="/Unity/wazb4.JPG" alt="waz4" />
+          </div>
         </div>
       </div>
 
@@ -155,22 +159,23 @@
 
     <div class="main1">
       <h2 id="selection-algorithm">Algorytmy</h2>
-      <h3> Zadania rozwiązane w celu nauki algorytmów &#10098; pochodzące z ksiązki "Zaprzyjaźnij się z algorytmami" Jacka Tomasiewicza &#10099; </h3>
+      <h3> Zadania rozwiązane w celu nauki algorytmów i struktur danych &#10098; pochodzące z ksiązki "Zaprzyjaźnij się z algorytmami" Jacka Tomasiewicza &#10099; </h3>
         <div class="exercise">
+          <h4> Programowanie dynamiczne </h4>
           <p class="pexercise">Sylwia dostala planszę składającą się z n pól, na których są wypisane liczby całkowite p0, p1, ..., pn-1, a Jacek wymyślił zabawę.
             Rozpoczynając od pola o numerze 0, należy przemieścić się na pole o numerze n-1. Aby wykonać ruch, należy rzucić sześcienną kostką
             Pionek porusza się tylko w kierunku rosnących numerów , zawsze o wartość, którą wskazuje kostka. Na koniec sumuje wszystkie wartości, 
            odwiedzanych pól. Celem zabawy jest uzbieranie jak największej sumy.
           </p>
-          <h4> Wejście </h4>
+          <h5> Wejście </h5>
           <p class="pexercise"> Pierwszy i jedyny wyraz wejścia powinnien zawierać jedną liczbę całkowitą n oznaczającą liczbę pól na planszy. 
             W drugim wierszu wejścia jest n liczb całkowitych p0, p1, ..., pn-1, gdzie pi oznacza wartości i-tego pola 
           </p>
-          <h4> Wyjście</h4>
+          <h5> Wyjście</h5>
           <p class="pexercise"> Pierwszy i jedyny wyraz wyjścia powinnien zawierać liczbę całkowitą, równą maksymalnej sumie liczb, jaką
             można uzyskać poruszając się po planszy. 
           </p>
-          <h4> Przykład </h4>
+          <h5> Przykład </h5>
           <div class="exercise-example">
             <div class="data">
               <p class="p-ex-head">Dla danych wejściowych:</p>
@@ -187,26 +192,27 @@
               </div>
             </div>
           </div>
-          <h4>Rozwiązanie</h4>
+          <h5>Rozwiązanie</h5>
           <img class="imex" src="/Zdania algorytmy/Zad1Pionek.JPG" alt="Z1" />
         </div>
 
         <div class="exercise">
+          <h4> Algorytm stosu </h4>
           <p class="pexercise"> W pewnej rzece pływa n żarłacznych ryb. Rzeka płynie ze wschodu na zachód, a ryby płyną jedna za drugą,
             niektóre z nich płyną z prądem rzeki, a inne pod prąd. Jeśli dwie ryby płynące w przeciwnych kierunkach spotkają się, to tylko
             jedna z nich przeżyje. Wiemy, że ryba większa zawsze pożera mniejszą. Zakładamy, że wszystkie ryby płyną z tą samą prędkością oraz
             nie ma dwóch ryb o tej samej wielkości.
           </p>
-          <h4> Wejście </h4>
+          <h5> Wejście </h5>
           <p class="pexercise"> Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą n oznaczającą liczbę ryb. Drugi wiersz zawiera n liczb 
             całkowitych a0, a1, ..., an-1, gdzie ai oznzacza wielkość i-tej ryby. Liczby oznaczające wielkości ryb są podawane kolejno od kierunku
             zachodniego do wschodniego. W trzecim wejściu wiersza jest n liczb k0, k1, ..., kn-1 ze zbioru &#10098; 0,1 &#10099;, które określają kierunek,
             w którym płynie i-ta ryba: jeśli ki=0-ryba płynie z prądem, a gdy ki=1-pod prąd.
           </p>
-          <h4> Wyjście</h4>
+          <h5> Wyjście</h5>
           <p class="pexercise"> Pierwszy i jedyny wyraz wyjścia powinnien zawierać jedną liczbę całkowitą równą liczbie ryb, które pozostaną w rzece. 
           </p>
-          <h4> Przykład </h4>
+          <h5> Przykład </h5>
           <div class="exercise-example">
             <div class="data">
               <p class="p-ex-head">Dla danych wejściowych:</p>
@@ -224,7 +230,7 @@
               </div>
             </div>
           </div>
-          <h4>Rozwiązanie</h4>
+          <h5>Rozwiązanie</h5>
           <img class="imex" src="/Zdania algorytmy/Zad2Ryby.JPG" alt="Z2" />
         </div>
     </div>
